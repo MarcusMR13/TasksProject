@@ -95,10 +95,10 @@ class _TaskState extends State<Task> {
                       child: ElevatedButton(
                         style: ButtonStyle(
                             backgroundColor:
-                                WidgetStatePropertyAll<Color>(Colors.blue),
+                                const WidgetStatePropertyAll<Color>(Colors.blue),
                             shape:
                                 WidgetStateProperty.all<RoundedRectangleBorder>(
-                                    RoundedRectangleBorder(
+                                    const RoundedRectangleBorder(
                                         borderRadius: BorderRadius.zero,
                                         side:
                                             BorderSide(color: Colors.black)))),
